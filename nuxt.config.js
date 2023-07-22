@@ -6,6 +6,9 @@ export default {
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  router: {
+    base: '/digirift-test/dist/'
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -63,9 +66,7 @@ export default {
     }
   },
 
-  router: {
-    base: 'https://github.com/richardordinario/digirift-test'
-  },
+
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
